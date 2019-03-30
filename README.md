@@ -18,7 +18,7 @@
 <p align="center">
   <b>纯css3的`世界建筑物展示平台哦` </b>
   <br></br>
-  <img width="500px" src="./dibiao/img/polygon-demo.png">
+  <img width="500px" src="./img/polygon-demo.png">
 </p>
 
 #### 三、 设计稿  
@@ -26,25 +26,25 @@
 <p align="center">
   <b>线稿</b>
   <br></br>
-  <img width="500px" src="./dibiao/img/readme_4.jpg">
+  <img width="500px" src="./img/readme_4.jpg">
   <br></br>
-  <img width="500px" src="./dibiao/img/readme_3.jpg">
+  <img width="500px" src="./img/readme_3.jpg">
   <br></br>
-  <img width="500px" src="./dibiao/img/readme_1.jpg">
+  <img width="500px" src="./img/readme_1.jpg">
   <br></br>
   <b>成品</b>
   <br></br>
   <span>悉尼歌剧院</span>
   <br></br>
-  <img width="500px" src="./dibiao/img/readme_5.png">
+  <img width="500px" src="./img/readme_5.png">
   <br></br>
-  <span>东方之门 - 大裤衩</span>
+  <span>巴黎——埃菲尔铁塔</span>
   <br></br>
-  <img width="500px" src="./dibiao/img/readme_6.png">
+  <img width="500px" src="./img/readme_6.png">
   <br></br>
   <span>还有相框</span>
   <br></br>
-  <img width="500px" src="./dibiao/img/readme_2.jpg">
+  <img width="500px" src="./img/readme_2.jpg">
 </p>
 
 
