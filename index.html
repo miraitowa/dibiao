@@ -1,50 +1,716 @@
-## 基于css的地标展示平台 ##
+<!--
 
-这是一个基于css的地标展示平台，
+BBBQBQBBBBBBBBBQBBBBBBBBBQBBBBBBBBBQBQBQBBBQBBBBBQBBBBBBBQBBBBBBBBBQBBBQBBBQBQBQ
+BBQBQBQBQBQBQBQBQBBBBBBBBBBBBBBBBBBBQBQBQBBBQBQBBBQBBBBBBBBBQBBBBBBBQBQBQBQBBBQB
+BQBQBBBBBQBQBQBQBBBBBBBQBQBBBpU6QBBBBBBBBBBQBQBQBBBBBQBQBQBBBQBQBQBBBQBBBQBQBQBQ
+QBQBQBQBQBQBQBBBQBQBBBBM:        .7BBBBBBBQBQBQBQBQBQBQBQBQBQBQBQBBBBBQBQBQBQBBB
+BQBQBQBQBQBQBQBQBQBQBBZ      .. .. ,BBBBBBBQBBBQBQBMBBBQBQBQBQBQBQBBBQBQBQBQBBBM   @@@          @@@@@@@@@@   @@@       @@@   @@@@@@@@@@                                                            
 
-地标性建筑物的展示平台，
+QQMBQBBBQBQBQBBBQBQBBD     ..,:,:;r,;2BBQBQBQBBBQBQBQBQBQBQBQBQBQBQBQBBBBBQBQBQB   @@@          @@@@@@@@@@    @@@     @@@    @@@                                                                  
 
-你想和你喜欢的人一起看这个世界最美的地方吗
+BMBQBQBQBQBMBQBQBBBBB1  .::;r:,.,,:;, gQBQBQBBBQBQBQBQBQBQBQQQBQBQBQBBBQBQBQBQBM   @@@          @@@    @@@     @@@   @@@     @@@                                                                         
 
-你想让你的孩子在最小的时候
+QBQBQBQQQBQBQBMBQBBBQ  ,:r;.    .:::::pBBBQBQBQBQQQBQQQBQBQBMBQBQBQBQBQBQBQBMBQQ   @@@          @@@    @@@      @@@ @@@      @@@@@@@@@@                                                                  
 
-就知道这世界有这些地方吗
+BQBQBQBQBQQQBQBQBQBBU .,L;  :L5.:X7::,6BBQQQBQBQQQBQBQBQBMBQBQBQBQBQBQBQBQBMBQBM   @@@          @@@    @@@       @@@@@       @@@                                                                         
 
-也许这个平台会给你想要的答案
+BBQBMBQBMQQBQBQBQBBBD .;7..7rSU  ;:. LBBQBQBQBQBQBQBQQQQQQQBQBQBQBQBQQQBQBQQQQQQ   @@@@@@@@@@   @@@@@@@@@@        @@@        @@@                                                                         
+
+QMBMBMBQQQBQBQQQBQQBBO:,i     ...::.,BBQQMBMQMBMBQQMQMBMQQBQBMBQQQBQQQBQQQBQBQBQ   @@@@@@@@@@   @@@@@@@@@@         @         @@@@@@@@@@ 
+                                                                 
+QQQBQQMQQBQBQQQBQBQBBBBOp,   .:72r:.;BBBQBQBMBMBQBQBMBQBQBMQQQMBQBQBQBMQMBQBMQMB
+BQBQBMBMQMBQBMBMBMQMBBBBBBL ..;;7r:..BBBBBBBBBBBBBBQBQBMQMBQBQBQBMQMBMQQBQBMBMBM
+QQMQMQMQQBMBQQQQQQMBQBQBBBQL ;:.,;:, :KgQBBBBBBBBBQBBBQBQQMQMBQQMBMQMQMBMBMBMBQB
+BMQMQMBMBMQMQMBMQQBQBMBQBQBB.,L562;.,.  ..:;LUD2r::;spBBBMQMQMQMQQBQBMQMBMQQQQQM
+MQMQMQMQMQQQMQMQQBMBMQMQQBBBR ,rv7::,,,,,,,,.:.       sBQQRQMBMQMBQBQQMQRQRQMQMQ
+QMQMQMBMQMBMBQQQBMQQBQBBBBBB: ::::i;:::::::,;;:.. .  , MBMQRQMQMQRQQQMQRQMQMQMQR
+QQMQMBMQMBMQMQMQMQQBQBBBQB:   .i::::.,,,::..,:,,....,:.QBQMQMQRQRQMQRQMQRQRQRQMQ                                  古希腊神话爱与美的女神———阿佛洛狄忒护体😜 愿天下有情人终成眷属❤️
+QMQMQMQRQMQMQRQMQMQQBBBBi      ..              ...,:r. QBMMRQMQMQRQQQMQMQQQRMRMR                                  古希腊神话爱与美的女神———阿佛洛狄忒护体😀 愿天下有情人终成眷属❤️
+MQMQMQMQMQMQRQMQMBQBBP.                           .:;; 6BQRQRMMQRMRBMQRMRQRQRQRM                                  古希腊神话爱与美的女神———阿佛洛狄忒护体😎 愿天下有情人终成眷属❤️
+QRQMQMQMQMQRQMQMQQBB;                     ... ....,,,;.gBQQgQMQRQRQRQRQRQRQMQRQR
+QQMQMQMQRQRQRQMQMBBX         . .         ......,.,::,,.BBBRQRMRQRMRMRMRMRQRQRMRM
+QRQMQRQMQRQRQRQRQBB:         ..   . . ...       ..,,:,.BBMMgQRQRQRQRMRMRMRQRMgQR                                             
+QQRQMQRQMQMQMQRQMBB,    ,r  ...    . ...         ..,,,.BBQRMRQRMRMRMRQgMRMRMRMRM
+QRQMQRQRQMQRMMQRQBB.    .::,,.        ..      .,,,,,:, QBRMRRRQRMgMRMRRRMRMRQRMR
+RMMQRQRMRMRQRMRQQBB,   .  ,7          ...,,,,,:;;;:::, MBMgMRMRMgRRMRQRRRMRMRMRM
+QRMRQMQRQMQRMRMRMQBL       :      ....:,::ir7rvv7r7i;, ZBMQRMRRRMRMRMRMgRgMRQRMR
+RQMQMQRQMQMMRMRQRBQB       ,:;cr:::;;rr:,:r2HGEEXJr;:: wBQRMRRRMRRgMRMRMgMgRRQRM                          爱神阿佛洛狄忒，是美和爱的化身，是欢笑和婚姻的女神。她掌管着人间的爱情、婚姻、生育。
+QRMRQRQRMRRRMRMRMMBB,    ..:ZUsUS5XHpwr:,.:,:;crr::,::.7BRMRMgMRRRMRMRQgMRMRMRMR
+MMRQRMRQRMRMRQRQRQMBc rHOgGOZBG1UPHw;.   .       ..,,, rBQgMgRRMRMRRgMRQRQgMRMgR                          相传阿佛洛狄忒生于海浪中。那天，轻快的海浪将一枚贝壳送上塞浦路斯岛的沙滩。贝壳开启，
+QRQRRRMRMRMRMRMRMRMBDsp522XPQBZJv::.  ..:::.,,,,,,::;: vBMMgRgRgMgRgMRMRRgRgMRMg                      美丽的阿佛洛狄忒走了出来。她洁白如玉，轻柔似水，湛蓝的眼睛柔和而迷人。她往沙滩高处走去，
+RQRMRMRQRRRMRMRMRRRQBgpEZgMBQB2S7..::::::;:::::::::::: XBQRRgRgRgRRMgRgMRRgMRRRM                      身后脚印里立刻长满了芳香的鲜花。　时光女神在海岸边微笑着迎接阿佛洛狄忒，给她戴上金色头饰
+QRMRMRQRMRQRQRRRMRQRQBBBBQBMBBHvi::,::::r;;;;;;;;::::,,QBRRgRgRgRRRgRgRgRRRgRgRg                      和金花耳环，脖子上围上一条白色项链。四季女神给阿佛洛狄忒送来一辆鸽子驾的天车，载着阿佛洛
+RMRMgRRRRMRRgRRMRMRMRQRQRQRQBBw;::::;r77ri;rr777r;::,,.BBQRRgRgRgRRMgRgRgRRRgMgR                      狄忒向天神居住的奥林匹斯山上飞去。众神之父朱庇特知道阿佛洛狄忒是自己的女儿，高兴地在天宫
+MgMRMgMRMRRRMRRgMRMRQRQRRRBBBJ,::.....:,.,,,:,::::,,:. SBRMRRRRgRRMgRgRgRgRgRRRg                      迎接了阿佛洛狄忒。
+RMRMRMRMRRRMgMRMRRRMRRgRgMBBv    .   .  ., ..... . .,, :BBgRRRgRgRRRgRgMgRgMgMgR
+MgMRRgMgMgMRMRMgMgRgRgRgMQB7  . ..  ,::;;:,.,,:,..  ... BBMgRgRRRgRRMgRgRgRgRgRg                          阿佛洛狄忒的美丽使得原本就很华丽的奥林匹斯山更加绚丽夺目。然而，她的美丽，也引起后朱
+RRRMRMRMgMRMRRRMgMgRgRRMRBp           .7,    . ...   , .QBgRgMgRRRRRgRRRgRgRgRgR                      诺和智慧女神弥涅尔瓦的嫉妒。终于在一个宴会上，她们发生了争执。当时，不和女神在宴会上拿出
+MRMgMRMRMgRRQgMgMgRRRgMRBB.       .,             .,.::, MQMDRgRgRgMgRRMRRgRgRgRD                      一个刻有“献给最美丽的女神”一行字的苹果。天后朱诺看到了，她说她是天下最美丽的女神，她应该
+RRRRgMRRgRgMgMRRgRgRRRRBQ7 . ,....., .  .,,,....,:,:.,. sBRMgRgRgRgRRRRMgQgMRMRM                      最后只好让天神之父朱庇特来裁决。于是朱庇特让她们去人间的爱达山上，找一个名叫帕里斯的牧羊
+QgMgRRRgRgMgRgRgRgRgMRMBR   ......:..,,.,,:,:,,.:.   .:.1BQgMgRgMgRRQRMRMRRgRRRg                      人裁决争执。腿长脚快的快腿信使墨丘利带着她们去爱达山了，找到正在放牧的帕里斯，传达了朱庇
+MMRRRRRMRRgMgMRMgRgRgRQB:   .:,,,..,.....,.......   .,. :BBRDRgRgRgRgRgRgRgRRRgR                      特交办的事。谁是最美的女神呢，他们决定，让女神们依次从帕得到苹果；弥涅尔瓦听了很不高兴，
+MRRgMgMgRgRgRgRgRgRgRRBB  . .,,:,.,.,...,.  ..     .,..  rBMgDRDRgggRgRDRgRgMgRg                      她说这苹果该属于自己；阿佛洛狄忒也加入到争吵之中，她说自己是最美丽的。没办法，里斯眼前走
+RRRMRRRRgRgMgRgRgRgRRQBv ....,.,..         .   .,r;:,,,..,QBgRDRgRgRRRgRgMgRgRgR                      过，让帕里斯从中挑出最美的一个。帕里斯拿着苹果，左右为难，三位女神都美丽无比，他实在无法
+MgRRRgRgMRRgRRRgMgRgQBB.    .           ,,   .:;7:  ,:::r:rOBggDRgggRDRggDRgggRD                      裁定。这时，阿佛洛狄忒暗暗发力，向帕里斯许诺，如果选她作最美的女神，她将把人间最美丽的女
+RRRQgRRRRRgRgRgRRRgMBBB..            ;JJ::.,,;r;.  ::;::;:,RBROROggRgRgggRgRDRDg                      人海伦作为礼物送给他作妻子。这个允诺使帕里斯把苹果判给了阿佛洛狄忒。其他两个女神虽然不服
+MgMgQRRgRgRgRgRgRgRBBw   .,,. . ,:;vSS:.cc:,::,..:;::,    :OBggDRgggRggDgDggRgRg                      气，但也没办法。阿佛洛狄忒就成了奥林匹斯山上最美丽的女神。
+RMRMgRgRgRRRRRgMgRQO:  . :,7SwPDp6X6c.:S7:,::7Lri;:,,ir;:r;HQRgRggDRDRDgDRgRgRgR
+MgRgMgMgMRMgRRMgRgBO7L5LrrLXKJJLr7c2::5:,;7rs1U2Jrv22c1v;6BRQgRDRDRgRgRggDRggggD                          从此以后，阿佛洛狄忒成为情人的保护神。受她保护的情人可以尽情享受爱情带来的甜蜜与幸福。
+RRRRgRgMRMgRRMgRgMRBQB. ,i,    ,c7;,..  ....   ,,,.:;:::.QBMgRggDggRDRDgDggRDRgR                      她的魅力无处不在：她出现在大海上，海面上的惊涛骇浪就会恢复平静；出现在大地上，大地就会欣
+QgMRMRRRRRMRRRRgRgMQB;    . .5Q2s,:.  .       .  .:,:;. ,BBgRggDRgRDRgRgggRDRgRg                      欣向荣。阿佛洛狄忒最喜欢的植物是玫瑰(rose)，所以人们就拿玫瑰来表达爱意。后来，阿佛洛狄忒
+RRRMgMRMgRgMgRgRgMRBg   :LJpBB7,7:   ;,. ...      .:,:, rBRgDRDRDRgRgRgRgggRgRgR                      有一个孩子，就是小爱神丘比特。丘比特长着小翅膀，手持小弓箭，在空中愉快地飞来飞去。谁被他
+QgMRMgMRMRMgRgRgMgRRBBEJrJJ2L:.ss..:7, .,,,.. ..   ,i:: GBMgggRggDRDgDRgRDgDggMg                      的箭射中，就会陷入爱河。由于阿佛洛狄忒诞生于海浪中，是以洁净、柔和、光滑的裸体走向海滩的，
+RRgRgRRMRRRRgMgRgRgRRBBB;7..,.;g: :7. ,;,,,.,,.::::.,c.:QBgRDRggDRDRDRDRgRgRgRgR                      因此，很多艺术家便将这种美丽画在了画布上，写进了文字里。
+QgRRRRRgMgRgRgRgMgRgRRBB7r  ::HJ:,i: .,.,,,.....:ir,.;:.BMRDgggDgggDggggRgRggggD
+RRgMRMgRgRgRgRgRgRgRgRMB7; :.:::;c:...   .,,.,.  ,::,.,,BBggggDgDggggRgRDRgRgggR                          爱神阿佛洛狄忒象征着美丽和爱情，是人们赞美的对象，她让人们相信人间有爱。
+QRMRRgMRRgRgRgRgRgMRMRQQs: :;::,c;, ,,:;;::;:;Lrr,. . .:JBQgRggDRDgDgDRgRgggRgRg
+RMRMRMRRgRgRgRgMgRgMRRRBX; .:.,rc,. .i;:,...,:,:raOs ..r,gBRgRDRgRDgDRgggRgRgRDg
+MRRRRgRgMgRgRgRgRgRgRgRBKr.  :gQ::.., ..... .,. .:BQ; ,.;UBggDRDRgRggggDgDRgRgRO
+RRgRgRRRgRgMgRRRRRgggRgQBX;  gRZ ,.,......   ,..  2B5 ,  UBQgRgRgRggDRgggggRgRgR
+MgRgRRMgRgMRRgRgRgRgggRRBBK ;RH1..:,. . ..,.. ..: ,BB,., .BQgORDRgRgggRDRgRgRgRg
+RRRMgRgRgRgMgRgRgRRMgRgRRBB;LU2:,:r ..   ..,;7. .  KBr .: ZBRgDggggRggDRDRgRgRgR
+RgRRRgRRRgMgRgMgRDRRMgRgRRBHs;J,r:J .,.,:,,.:7gr   sBH  : vBQggDRDRgRDggggRgRgRD
+RRRRRMRRRMRRgRgRDRDRDRgggMQ1;Li:L:r  :;r;::,..,gB; ;RB.  . BQRDRgRggDRgggRgRgRgM                                         @@@@                                  @@@@
+QgRgRgRgRRRRMgRgggRgRggDRBO:sS,:irwr::i7L;::..  L7 .OBX    ;BRRgRDRgggRgRDRgRgRD                                     @@@@@@@@@@@@                          @@@@@@@@@@@@
+RRRRgMgRgRgMgMgRgRRMgRgggB;;sJ,::ZZcr;;Lc7:::,.  :  LBQ:  ;.BBgRDgDgDgDRgRgRgRgR                                @@@@@@@@@@@@@@@@@@@@                   @@@@@@@@@@@@@@@@@@@@
+QgRgMRMRQgQgMRRRRRRgRgRRQM7LZ7.LrwBJ2J:7wLr::::     ;pB1  , LQQRRDggRgRgRgRgRgRg                             @@@@@@@@@@@@@@@@@@@@@@@@@@@           @@@@@@@@@@@@@@@@@@@@@@@@@@@
+RRRQRMMMRRRRgRgMRRRMgRgRRBBEKs.Z1rJvXQ:rsJ7;:::,     sBp;  , gBMgRDRggDRgRgRgRRM                          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+MgMRMRMRRgMRRgRgRDMgRgRgRRQQBs.JJ,c:;Bs:;7L;;::::..  :ERs  .  DBQggDRDRgggRgRgRg                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+MMRQRRRRgMRMgRgRggDgDggRgRgMBD,s7:URLB6::;7c;;:,.:.  :LBU:  . .BBMgRggDgDRgRgRDg                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+QRMgMgRgRRRgRgRgRgRgRDgDggRgBB;;72;BBGBr:ics7i;,.,,. .7OZc   . rBRgDgDRgRgggRgRg                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+RRgRgRgMgRgRgRRRgRggDgDRDRgRBR;:JB.:ppBa::r7r;::,:,:  vpR1.  , .BQggDRgRDRgRRRgR                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+MRMRMRMgRgRgRRMgRgRgRgRgggRgBZ;:5R: cGBDr:r;:;;:;,,,, ;wBUr ..  BBRgRDggggRgRDRg                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@         陪伴       @@@@@@@@@@@@@@@@@@@@@@@@@@@
+RMRQRRgRRMgMgMRRRMRRgRDRgRgMBRr,UZi :QBR5:;;7J;r;:,,, .JMZJ, ,,.BBgRgggRgRRRgRgg                        @@@@@@@@@@@@@@@@@@@@@@@@@@@      是最长情的     @@@@@@@@@@@@@@@@@@@@@@@@@@@
+QRMRRRQRQgRgMgRgRgRRRgRgRgRgQBs,2H;;7RBKE::.cvs7;;:.,  cpMUr ., BQRDggRgRgRRRgRD                          @@@@@@@@@@@@@@@@@@@@@@@           告白        @@@@@@@@@@@@@@@@@@@@@@@@
+RMRMRMRRgMgMgRgRRRgRRRgRgRgMgBR7sD;rcPB6Ri,;7;1s;r;,:. csBwJ.r: DBgggggRgRgRRRgR                           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+QgMRQRMgRgRgRgRgRgRgMgMgRgRgMMMJp1i7w:rpB7:rrrsLLr:.,. 7UOG::ii SBROgDggRgRgRgRg                             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+MMRMRQgMRMRRgMgRgMRRgRgRgRgRgRMBBU,Lc:;ERL,rJD:7w7:..  ;K1B75. ;gBDgDggggggRgRgR                               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+MgQRQRMRMRMRMRMgMgRgRgRRggRgMRRRBQ;:i:16Qs.sBH;:sJ;:,   Z;;LU; :BMRgRgRgRgRDRgRg                                 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+RRRMRRRRRMgMRRgRRRRRgRggDRggDRgRRBB;.LXEg7iDgU::rJ7;.   U6 ,;s .BBgRgRgggRgggggR                                    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+QgRRMRMRRRQRMRMgMRRgRgRgMgRgggRgRRBE;5XEH7EK6si:;L1r:   cB, :L  BQRDRDggggRggDRD                                       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+RMRMgQRMgRRQRQgRgMgMgRgRgMgRgggRgRBg;spX:7XPPvi;:72L:,  :Bs .L. gBRRDRDgDRgRDRgR                                           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+QRMRRgMgMgMRMgMRRRRgRgRgRgMRMgRRRgQM1s7rL2SKKLr::;Ls:,. ,BB .v: ;QBRRgRgRgRRMRRg                                              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+RQRQRMRMgRRRRMRMRRRMRRgRgRgRgRgRgMRBQ77UaZKSJ7;r::;s;,.  aBr wO  BBQRggRgRgRRMRM                                                 @@@@@@@@@@@@@@@@@@@@@@
+QRMMQMQMQRQRQRMRMRRgMgMRMRRgggRgRgQBBSLKDp57r77r;:;i::,  .BP  G7  BBMgRgMRMRQRMg                                                   @@@@@@@@@@@@@@@@@@
+MMRQMQRQRQRQRMRMRRgRgMgRgMRMRMRMRQBBRr,7s7v7rrrrrr::,vJr. GB   L, ,BQMgRgRRMgRgR                                                      @@@@@@@@@@@@
+QRMRQRQRMRMRMRMRMgRgRRRgMRQRBBBBBBKP:.7r7;ri;::;rr:7sLJwc.;B, :., .BBgRgRgRgRgRg                                                        @@@@@@@@
+RRRRRMgMRMgMRMgMgMRMRMRQQBQBBBBBBB.:.,rHr::;;;::;;:7::;r:: Ba .:   BBMRRgMgMgMgM                                                          @@@@
+QgQRQRQRMRQRRRQQBQBQBBBBBBEL;::.,  ,LL:Js::,:::,:::;7.  ....S.     rBQQgRgRgMRRg                                                            @          你是我一生只会遇见一次的惊喜❤️......
+RRRMRMRMRMRMgQQRDQMBBBQHr:..,:  r;;LZE;:;::::::;;:,BQ7,.  . .;.:;7.LBRRQgRgRRMRR
+QRQRMRQRQRQRBBg2w1a27:    ,.,,.;72DZrr:::;;rr;;;r:OB;,,.     ;1w2cKEHwSQBRMRRgRg                                                                       陪你一时，胜过十年尘梦❤️......
+RMRQRQRMRMRQBpvJ125:     ..,......      .,,:.,,..rD2       ;swJaP6HSw2cXBBRRgRgM
+BRQRMRMRQRQBMrss55p77:,,,,,,::,::,,,,:;:.,,.. ...       .rHOggRRRZXUX2ULGBQgMRMR                                                                       与你相遇真的很好很好😉......
+RQRQMQRMRQBB77LLvUHKaPcsJXXSS6HX27LJJSSEr:;;;irrrr.  .iXRMRg66PgZKS5U5UwJBBMRMRR
+QRQRMRQRQQBJrs1sL7LJUKEGDgQRQQBQBQBBBBBQQLUvri;:rspSOQBRgEpSHaH51s1J1J2c7EBMMRMR                                                                       愿你每一天都快乐着😉......
+RMRMRMRQMBD;r7r77Lcr::,:::,::;:,,:77rv7sLSPGOK6G6gRDKSsJLssr;r;;;:;rrrir;rQBRMRM
+MRMMMRQRBBr;rrr;vv7,   .:,::;;;:;;;ir;:;:::,:::;i::;;:,:;:::;:::;;;rrrrrr:5BQRMR
+RRRRRMRQB:iHSpEOKXZpgBR6HUEP5DP6OgE6PXPXKG2SXPPKHK5GKPXZKXsKEpS2apaHU6wSX2:gBMRM
+
+-->
 
 
-#### 二、 过程图  
+<!DOCTYPE html>
 
-<p align="center">
-  <b>纯css3的`世界建筑物展示平台哦` </b>
-  <br></br>
-  <img width="500px" src="./img/polygon-demo.png">
-</p>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>卅 地标图形设计</title>
+    <!--  <meta name="viewport" content="width=device-width"> -->
 
-#### 三、 设计稿  
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="js/soundmanager2-nodebug-jsmin.js"></script>
+    <script src="js/modernizr.custom.16411.js"></script>
 
-<p align="center">
-  <b>线稿</b>
-  <br></br>
-  <img width="500px" src="./img/readme_4.jpg">
-  <br></br>
-  <img width="500px" src="./img/readme_3.jpg">
-  <br></br>
-  <img width="500px" src="./img/readme_1.jpg">
-  <br></br>
-  <b>成品</b>
-  <br></br>
-  <span>悉尼歌剧院</span>
-  <br></br>
-  <img width="500px" src="./img/readme_5.png">
-  <br></br>
-  <span>巴黎——埃菲尔铁塔</span>
-  <br></br>
-  <img width="500px" src="./img/readme_6.png">
-  <br></br>
-  <span>还有相框</span>
-  <br></br>
-  <img width="500px" src="./img/readme_2.jpg">
-</p>
+</head>
+
+<body id="allanimals" class="preloader preloader-layer-2">
+<div id="fb-root"></div>
+<div id="animalchanger" class="">
+    <div class="border">
+        <div class="frames">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="corners">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="intro-sequence">
+        <div class="loading hidden-startup">
+            <h4>卅 <span>地标图形设计</span></h4>
+            <p>30个特色地标 &ndash; 各由30个三角形组成.</p>
+        </div>
+        <div>
+            <p><span>卅</span><span>，</span><span>数字</span><span>三十</span><span>的</span><span>中文代用字</span><span>。</span>
+            </p>
+            <p>
+                <span>组成</span><span>的地标</span><span>图形</span><span>代</span><span>表</span><span>其</span><span>各自的</span><span>文化</span><span>...</span>
+            </p>
+            <p><span>小小的图形</span><span>组合起来</span><span>就是</span><span>美丽的图案，</span><span>还</span><span>有</span><span>一定的</span><span>视觉冲击力。</span>
+            </p>
+            <p><span>这是</span><span>图形文化，</span><span>地域地标文化，</span><span>也是</span><span>“卅”的文化。</span></p>
+        </div>
+        <div class="intro-content">
+            <h1>卅&ndash;地标图形设计</h1>
+            <p class="textured-type"> 30幅地标图形，来自于30个三角形，<span>代表着30个地域的文化</span></p>
+            <p>这是一个<span>CSS</span>新型互动展示网站，相信你们会感觉到这个网站很有意思，并更希望与此网站有更多的互动</p>
+            <a class="start-experience box-link red" href="#"><span>进入<i>图形</i>文化旅程</span></a></div>
+        <div class="skip-intro">
+            <div class="timeline"></div>
+            <a class="line-link red" href="#">跳过开场动画</a></div>
+    </div>
+    <div class="level-one hidden-startup">
+        <div class="level-two">
+            <div class="animal-mover">
+                <div class="wrap right-to-left">
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap peripheral">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap peripheral">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shard-wrap peripheral">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="shadow inactive startup-inactive"></div>
+                    <h1><span>地标图形设计</span></h1>
+                </div>
+            </div>
+        </div>
+        <!-- <ul class="animal-data">
+                        <li class="textured-type">50<span>cm</span></li>
+                        <li class="textured-type">67<span>kg</span></li>
+                        <li class="textured-type">34</li>
+                    </ul> -->
+    </div>
+    <div class="stage">
+        <ul class="animal-nav">
+            <li class="prev"><a class="nav-btn" href="#">
+                <div class="arrow"></div>
+                <div class="popout" popanimal="vaquita">地标名称</div>
+            </a></li>
+            <li class="throbbing"><a href="#" class="why-endangered "> <span><span>详细<br>
+        信息</span></span> </a></li>
+            <li class="next"><a class="nav-btn" href="#">
+                <div class="arrow"></div>
+                <div class="popout" popanimal="vaquita">地标名称</div>
+            </a></li>
+        </ul>
 
 
+        <ul class="main-nav">
+            <li><a class="nav-btn all-animals-btn" href="#">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <div class="popout">全部地标</div>
+            </a></li>
+            <li><a class="nav-btn slideshow-on-btn" href="#">
+                <div class="arrow">
+                    <div></div>
+                </div>
+                <div class="arrow">
+                    <div></div>
+                </div>
+                <div class="popout">自动播放</div>
+            </a>
+            </li>
+
+            <li onclick="clickA()"><a class="nav-btn">
+                <div class="mute"><span></span></div>
+                <div class="popout">关闭声音</div>
+            </a></li>
+            <audio id="adduo" src="audio/test.mp3" loop="TRUE" autoplay>你的浏览器不支持</audio>
+            <script>
+                var a = document.getElementById("adduo");
+                function clickA() {
+                    if (a.paused) {
+                        a.play()
+                    } else {
+                        a.pause();
+                    }
+                }
+
+            </script>
+
+
+            <a href="#" class="nav-btn all-animals-off-btn close">
+                <div class="icon"></div>
+                <div class="popout">返回 <span>地标名称</span></div>
+            </a>
+        </ul>
+        <div class="animalinfo-wrapper">
+            <ul class="animalinfo">
+                <li class="textured-type smaller">图形<span>1</span></li>
+                <li data-animal="vaquita">
+                    <h2 class="textured-type">Vaquita</h2>
+                </li>
+                <li><a class="direct-stats stats-pie" href="#"><span></span></a> <a class="wallpaper" href="#">
+                    <span></span> </a></li>
+            </ul>
+        </div>
+        <footer>
+            <ul>
+                <!--<li><a class="line-link about" href="#">关于</a></li>-->
+                <li><a class="how line-link" href="#">制作过程</a></li>
+                <li><a class="line-link sources" href="#">参考文献</a></li>
+                <li><a class="line-link share" href="#">分享</a></li>
+                <li><a href="#" class="popout about"><span class="wee">联系网站</span>作者 <span
+                        class="bryan">miraitowa</span></a></li>
+            </ul>
+            <a class="footer-nav" href="#">
+                <div></div>
+            </a></footer>
+    </div>
+    <div class="hover-detector inactive">
+        <div data-animalClick="crow"></div>
+        <div data-animalClick="vaquita"></div>
+        <div data-animalClick="tamarin"></div>
+        <div data-animalClick="frog"></div>
+        <div data-animalClick="owl"></div>
+        <div data-animalClick="turtle"></div>
+        <div data-animalClick="oryx"></div>
+        <div data-animalClick="iguana"></div>
+        <div data-animalClick="seahorse"></div>
+        <div data-animalClick="armadillo"></div>
+        <div data-animalClick="sloth"></div>
+        <div data-animalClick="kakapo"></div>
+        <div data-animalClick="echidna"></div>
+        <div data-animalClick="penguin"></div>
+        <div data-animalClick="damselfly"></div>
+        <div data-animalClick="bear"></div>
+        <div data-animalClick="parrotfish"></div>
+        <div data-animalClick="camel"></div>
+        <div data-animalClick="butterfly"></div>
+        <div data-animalClick="ostrich"></div>
+        <div data-animalClick="panda"></div>
+        <div data-animalClick="tapir"></div>
+        <div data-animalClick="sifaka"></div>
+        <div data-animalClick="lynx"></div>
+        <div data-animalClick="rhino"></div>
+        <div data-animalClick="peccary"></div>
+        <div data-animalClick="okapi"></div>
+        <div data-animalClick="loris"></div>
+        <div data-animalClick="hirola"></div>
+        <div data-animalClick="drill"></div>
+    </div>
+    <div class="animal-nav-content inactive" animal="">
+        <div class="title-content">
+            <h1>关于网站</h1>
+            <h2> 30个地标 <span>30个三角形</span></h2>
+            <h4>请选择其中一个点</h4>
+            <p>进入我们的地标图形<br/>
+                或者<a class="line-link red random-animal-btn" href="#">按照顺序浏览</a></p>
+        </div>
+        <ul>
+            <li>
+                <h4>地标图形 1</h4>
+                <br/>
+                <h2>埃菲尔铁塔asasdfsf</h2>
+                <span><i>法国</i> 巴黎</span></li>
+            <li>
+                <h4>地标图形 2</h4>
+                <br/>
+                <h2>东方明珠</h2>
+                <span><i>中国</i> 上海</span></li>
+            <li>
+                <h4>地标图形 3</h4>
+                <br/>
+                <h2>金字塔</h2>
+                <span><i>埃及</i> 吉萨</span></li>
+            <li>
+                <h4>地标图形 4</h4>
+                <br/>
+                <h2>小美人鱼</h2>
+                <span><i>丹麦</i> 哥本哈根</span></li>
+            <li>
+                <h4>地标图形 5</h4>
+                <br/>
+                <h2>风车</h2>
+                <span><i>荷兰</i> 荷兰</span></li>
+            <li>
+                <h4>地标图形 6</h4>
+                <br/>
+                <h2>大阪城</h2>
+                <span><i>日本</i> 大阪市</span></li>
+            <li>
+                <h4>地标图形 7</h4>
+                <br/>
+                <h2>狮头鱼身像</h2>
+                <span><i>新加坡</i> 鱼尾狮公园</span></li>
+            <li>
+                <h4>地标图形 8</h4>
+                <br/>
+                <h2>悉尼哥剧院</h2>
+                <span><i>澳大利亚</i> 悉尼</span></li>
+            <li>
+                <h4>地标图形 9</h4>
+                <br/>
+                <h2>帕特农神庙</h2>
+                <span><i>希腊</i> 雅典</span></li>
+            <li>
+                <h4>地标图形 10</h4>
+                <br/>
+                <h2>仰光大金塔</h2>
+                <span><i>缅甸</i> 仰光</span></li>
+            <li>
+                <h4>地标图形 11</h4>
+                <br/>
+                <h2>凯旋门</h2>
+                <span><i>法国</i> 巴黎</span></li>
+            <li>
+                <h4>地标图形 12</h4>
+                <br/>
+                <h2>圆顶岩石清真寺</h2>
+                <span><i>以色列 巴勒斯坦</i> 耶路撒冷</span></li>
+            <li>
+                <h4>地标图形 13</h4>
+                <br/>
+                <h2>天安门</h2>
+                <span><i>中国</i> 北京</span></li>
+            <li>
+                <h4>地标图形 14</h4>
+                <br/>
+                <h2>比萨斜塔</h2>
+                <span><i>意大利</i> 托斯卡纳省</span></li>
+            <li>
+                <h4>地标图形 15</h4>
+                <br/>
+                <h2>泰姬陵</h2>
+                <span><i>印度</i> 阿格拉</span></li>
+            <li>
+                <h4>地标图形 16</h4>
+                <br/>
+                <h2>小于连撒尿雕像</h2>
+                <span><i>比利时</i> 布鲁塞尔</span></li>
+            <li>
+                <h4>地标图形 17</h4>
+                <br/>
+                <h2>千里马铜像</h2>
+                <span><i>朝鲜</i> 平壤</span></li>
+            <li>
+                <h4>地标图形 18</h4>
+                <br/>
+                <h2>南大门</h2>
+                <span><i>韩国</i> 首尔</span></li>
+            <li>
+                <h4>地标图形 19</h4>
+                <br/>
+                <h2>富士山</h2>
+                <span><i>日本</i> 本州</span></li>
+            <li>
+                <h4>地标图形 20</h4>
+                <br/>
+                <h2>独立纪念碑</h2>
+                <span><i>柬埔寨</i> 金边</span></li>
+            <li>
+                <h4>地标图形 21</h4>
+                <br/>
+                <h2>白宫</h2>
+                <span><i>美国</i> 华盛顿</span></li>
+            <li>
+                <h4>地标图形 22</h4>
+                <br/>
+                <h2>太空针塔</h2>
+                <span><i>美国</i> 西雅图</span></li>
+            <li>
+                <h4>地标图形 23</h4>
+                <br/>
+                <h2>自由女神像</h2>
+                <span><i>美国</i> 纽约</span></li>
+            <li>
+                <h4>地标图形 24</h4>
+                <br/>
+                <h2>华沙美人鱼</h2>
+                <span><i>波兰</i> 华沙维斯瓦河西岸</span></li>
+            <li>
+                <h4>地标图形 25</h4>
+                <br/>
+                <h2>东方之门</h2>
+                <span><i>中国</i> 苏州</span></li>
+            <li>
+                <h4>地标图形 26</h4>
+                <br/>
+                <h2>里亚尔托桥</h2>
+                <span><i>意大利</i> 威尼斯</span></li>
+            <li>
+                <h4>地标图形 27</h4>
+                <br/>
+                <h2>圣瓦西里大教堂</h2>
+                <span><i>俄罗斯</i> 莫斯科</span></li>
+            <li>
+                <h4>地标图形 28</h4>
+                <br/>
+                <h2>古罗马竞技场</h2>
+                <span><i>意大利</i> 罗马</span></li>
+            <li>
+                <h4>地标图形 29</h4>
+                <br/>
+                <h2>大本钟</h2>
+                <span><i>英国</i> 伦敦</span></li>
+            <li>
+                <h4>地标图形 30</h4>
+                <br/>
+                <h2>勃兰登堡门</h2>
+                <span><i>德国</i> 柏林</span></li>
+        </ul>
+    </div>
+    <div class="content-wrap">
+        <div class="content">
+            <div class="content-info">
+                <div class="infos"><a href="#" class="nav-btn close">
+                    <div class="icon"></div>
+                </a>
+                    <ul>
+                        <li>名称：<span></span></li>
+                        <li>|</li>
+                        <li>位置：<span></span></li>
+                    </ul>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <ul class="ctas">
+                    <li><a class="line-link red stats-pie statistics-on-btn" href="#"
+                           class="statistics">图表信息<span></span></a></li>
+                    <li><a href="#" class="videoturnon big-red popout">观看视频<span></span></a></li>
+                    <li><a class="offsite line-link red" href="#" target="_blank">图形链接</a></li>
+                </ul>
+            </div>
+            <div class="statistics">
+                <ul class="stats-ui two">
+                    <li><a class="nav-btn" href="#">
+                        <div class="arrow"></div>
+                        <div class="popout">返回介绍</div>
+                    </a></li>
+                    <li><a class="line-link red active" href="#"><span>信息</span>
+                        <div class="arrow"></div>
+                    </a></li>
+                    <li><a class="line-link red" href="#"><span>设计师（创作者）</span>
+                        <div class="arrow"></div>
+                    </a></li>
+                    <li><a class="line-link red" href="#"><span>建造时间</span>
+                        <div class="arrow"></div>
+                    </a></li>
+                    <li>
+                        <p>小提示：鼠标悬停在图表上，即可查看详细信息。</p>
+                    </li>
+                </ul>
+                <div class="chart five-stats">
+                    <div class="chart-shard-wrap">
+                        <div class="shard"></div>
+                    </div>
+                    <div class="chart-bg">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="chart-info">
+                        <p><span><em>2004</em><em class="number">10<i>%</i></em></span></p>
+                        <p><span><em>2005</em><em class="number">10<i>%</i></em></span></p>
+                        <p><span><em>2006</em><em class="top-stat number">10<i>%</i></em></span></p>
+                        <p><span><em>2007</em><em class="number">10<i>%</i></em></span></p>
+                        <p><span><em>2008</em><em class="number">10<i>%</i></em></span></p>
+                        <p><span><em>2009</em><em class="number">10<i>%</i></em></span></p>
+                        <p><span><em>2010</em><em class="number">10<i>%</i></em></span></p>
+                        <p><span><em>2011</em><em class="number">10<i>%</i></em></span></p>
+                      <!--  <p><span><em>VALUE HERE</em>Text goes here</span></p>  !-->
+                    </div>
+                </div>
+            </div>
+            <ul class="videos">
+                <div class="close-video js-close-video"></div>
+                <li>
+                    <iframe id="video" width="560" height="315" src="v1.mp4" type="video" frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" width="560" height="315" src="v2.mp4" type="video" frameborder="0" allowfullscreen></iframe>
+                </li>
+                <a href="#" class="nav-btn close js-close-video">
+                    <div class="icon"></div>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="overlay"><a href="#" class="nav-btn close">
+        <div class="icon"></div>
+    </a>
+        <div class="about">
+            <h2>联系作者</h2>
+            <img src="img/assets/miraitowa.png" style="width: 60%">
+            <p>姓名：miraitowa</p>
+
+            <p>
+                QQ：1263030049<br>
+                微信：请扫二维码
+            </p>
+            <p>
+                miraitowa2.top就可以找到我啦~
+            </p>
+        </div>
+        <div class="how">
+            <h2>制作过程</h2>
+            <br>
+            <p>本项目是基于CSS技术，我一直惊讶于CSS技术在图形变化方面的使用，所以我也想通过个人的努力完成一个属于自己的CSS项目，也进一步熟悉CSS的特性</p>
+            <p>
+                shard-shifting功能在webkit浏览器只工作,这当然是一种限制,但同时,它几乎完全基于webkit的移动。Firefox支持clip-path属性,但作为一个SVG引用的形状,因此,图形的运动是一个完全不同的方式进行。我想使用纯CSS的路线。</p>
+            <p> 没听说过吗?在这里,简单阐述一下:</p>
+            <p> webkit-clip-path:多边形(40% - 40%,50% - 60%,60% - 40%);</p>
+            <p>所以,本质上,每个形状变换,移动和转折到一套新的坐标,和他们保持三角形,这意味着3点:</p>
+                <p>用CSS转换连接动作,没有使用技巧或工具得到了结果</p>
+                <p>以代码为基础或图形,逐点,变换图形</p>
+                <p>使用代码写的图形进行变化后通过缔造JS函数进行跟踪</p>
+            <img src="img/assets/miraitowa-demo.png" alt="miraitowa demonstration">
+            <p>如果您对该技术或项目有任何问题，请联系 <a class="line-link  dark-line" target="_blank" href="javascript:;">miraitowa</a></p>
+        </div>
+        <div class="sources">
+            <h2>参考文献</h2>
+            <p></p>
+            <p>非常感谢有互联网这个平台，所以才能更好的去完善作品，网站的制作也参考了不少的文献内容。</p>
+            <ul>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>优设</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>《中华文摘》</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>维基百科</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>百度百科</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>百度文库</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>百度图片</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>《从埃菲尔铁塔看结构艺术的表现》盛勇 陈艾荣</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>《宇宙科学与自然考古之谜（全记录）》弘</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>Adobe创意中国</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>《国外的旅游名景》刘晓丽 李敏</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>《世界遗产名录》联合国教科文组织</a></li>
+                <li><a class="line-link dark-line offsite offsite-dark" href="javascript:;"><span></span>《建筑：形式·空间和秩序》弗朗西斯·D.K.钦</a></li>
+            </ul>
+            <p>再次感谢~</p>
+
+        </div>
+        <div class="download">
+            <div id="map-tb"
+                 style="width:1300px; height:800px; position: absolute; top:140px;left: 310px;  background:#333;"></div>
+        </div>
+        <div class="sharing-goodies">
+            <h2>分享此网站</h2>
+            <img src="img/assets/lj.png" style="width: 55%">
+            <p>喜欢这个作品<br>
+                扫描后就可以分享给他人啦~</p>
+            <p>加油~</p>
+        </div>
+    </div>
+    <div class="browser-statement">
+        <p>网站的动画特效全部基于webkit内核制作，想要极佳的体验，请下载<a href="#">Google Chrome</a>浏览器.</p>
+        <a href="#" class="nav-btn close">
+            <div class="icon"></div>
+        </a>
+    </div>-->
+</div>
+<div class="resize-hider">
+    <h3>碎片</h3>
+</div>
+</body>
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/vars.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/world.js"></script>
+<script src="js/map-bd.js"></script>
+</html>
