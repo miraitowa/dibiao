@@ -1,5 +1,7 @@
 ## 基于css的地标展示平台 ##
 
++ 预览：[卅-地标图形设计 戳此预览](https://miraitowa2.top/shijiezhiyan)
+
 这是一个基于css的地标展示平台，
 
 地标性建筑物的展示平台，
