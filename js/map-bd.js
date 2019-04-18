@@ -1,5 +1,5 @@
 /**
- * Created by Yaavi on 2016/3/17.
+ * Created by miraitowa on 2019/4/5.
  */
 
 var maptb = echarts.init(document.getElementById('map-tb'));
